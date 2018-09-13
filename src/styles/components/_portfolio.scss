@@ -1,0 +1,71 @@
+.portfolio-body{
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    // background: url("/images/black.jpg")
+    background-color: black;
+}
+
+
+.portfolio {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.portfolio-navbar {
+    text-align: end;
+    width: 80%;
+    word-break: keep-all;
+}
+.portfolio-title {
+    color: yellowgreen;
+    text-align: center;
+    font-size: 38px;
+    display: block;
+    width: 100%;
+    margin: 10px;
+}
+.project {
+    color: white;
+    width: 30%;
+    border: 1px solid white;
+    word-break: keep-all;
+    padding: 0 8px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    @media screen and (max-width: 870px) {
+        width: 45%;
+    }
+    @media screen and (max-width: 700px) {
+    width: 90%;
+}
+}
+
+.project-title {
+    margin: 5px 0;
+    text-align: center;
+    color: rgb(172, 28, 52);
+}
+.project-image {
+    text-align: center;
+    height: 120px;
+    img {
+        max-width: 200px;
+        max-height:100px ;
+    }
+}
+.project-link{
+    margin: 0;
+    font-weight: bold;
+}
+.project-description {
+    margin: 0;
+}
+.project-repository {
+    a {
+        text-decoration: none;
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,59 @@
+.about {
+    background: url("/images/congruent_outline.png");
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+}
+.about-links {
+    text-align: end;
+    margin-top: 10px;
+}
+.about-title {
+    color: yellowgreen;
+    text-align: center;
+    font-size: 38px;
+}
+.link {
+    // padding: 5px 10px;
+    color: whitesmoke;
+    margin: 10px 0 0 10px;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 18px;    
+}
+.resume {
+    color: white;
+    text-align: justify;
+    font-size: 20px;
+}
+.skills {
+    line-height: 35px;
+    
+}
+.badge {
+    color: black;
+    border: 1px solid black;
+    border-radius: 10%;
+    padding: 5px;
+    margin: 5px;
+    background-color: white;
+    font-weight: bold;
+    font-style: italic
+}
+.profile{
+    margin: 30px auto;
+    max-width: 300px;
+    
+}
+.photo {
+    margin: 20px auto;
+    text-align: center;
+    img {
+        width: 70%;
+        border-radius: 100%;
+    }
+}
+.social {
+    text-align: center;
+}
+

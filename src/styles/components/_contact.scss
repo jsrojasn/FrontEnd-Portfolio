@@ -1,0 +1,97 @@
+.contact {
+	background: url("/images/tweed.png");
+	height: 100vh;
+	width: 100vw;
+	overflow: auto;
+}
+.contact-title {
+	color: yellowgreen;
+    text-align: center;
+    font-size: 38px;
+}
+.contact-message {
+	color: white;
+	// font-weight: bold;
+	text-align: justify;
+	font-size: 20px;
+}
+.error {
+	color: red;
+	font-style: italic;
+	text-align: center;
+	font-weight: bold;
+}
+form {
+	padding: 10px;
+	background: #ccd7db;
+	margin: 20px 0;
+}
+
+fieldset,
+legend,
+button {
+	padding: 0;
+	border: none;
+}
+
+fieldset {
+	margin-top: 1.5em;
+}
+
+legend,
+button {
+	font-size: 1.25em;
+	text-align: center;
+		
+}
+
+legend {
+	font-weight: bold;
+	padding-top: .5em;
+	border-top: 2px solid black;
+	margin-bottom: 1.125em;
+}
+
+input[type="text"],
+input[type="email"],
+legend {
+	width: 100%;
+}
+
+label {
+	color: #000;
+	display: block;
+	margin-bottom: .5em;
+	font-weight: bold;
+}
+
+input,
+select {
+	margin-bottom: 1.125em;	
+}
+
+input {
+	font-size: 1em;
+	font-weight: bold;
+	padding: .8em;
+	background: #687074;
+	border: 2px solid #18191a;
+	outline: none;
+	color: white
+
+}
+
+
+button {
+	color: #fff;
+	padding: .55em 1.25em;
+	background: #0c0c0c;
+	margin: 1.25em auto;
+	cursor: pointer;
+	
+}
+.contact-button {
+	text-align: center;
+}
+
+
