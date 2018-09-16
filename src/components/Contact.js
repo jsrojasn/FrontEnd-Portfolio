@@ -72,8 +72,9 @@ export default class Contact extends React.Component{
                 <div className="contact">
                     <div className="content-container">
                         <div className="about-links content-container">
+                            <Link className="link" to="/">&#60;About&#62;</Link>
                             <Link className="link" to="/portfolio">&#60;Projects&#62;</Link>
-                            <Link className="link" to="/">&#60;About me&#62;</Link>
+                            <Link className="link" to="/contact">&#60;Contact&#62;</Link>
                         </div>
                         <h1 className="content-container contact-title">&#62;_Contact</h1>
                         <p className="content-container contact-message">Thank you for have interest in my work. I will contact you as soon as posible. While you can check my projects :)</p>
@@ -86,12 +87,14 @@ export default class Contact extends React.Component{
                 <div className="contact">
                     <div className="content-container">
                         <div className="about-links content-container">
+                            <Link className="link" to="/">&#60;About&#62;</Link>
                             <Link className="link" to="/portfolio">&#60;Projects&#62;</Link>
-                            <Link className="link" to="/">&#60;About me&#62;</Link>
+                            <Link className="link" to="/contact">&#60;Contact&#62;</Link>
+                            
                         </div>
                         
                         <h1 className="content-container contact-title">&#62;_Contact</h1>
-                        <p className="content-container contact-message">Feel free to contact me using the next form or sending me an email to jsrojasn91@gmail.com, i will contact you soon.</p>
+                        <p className="content-container contact-message">Feel free to contact me using the next form or send me an email to jsrojasn91@gmail.com, I will contact you soon.</p>
                         <form onSubmit={this.onSubmit} >
                             <p className="content-container error">{this.state.error}</p>
                             <fieldset>
