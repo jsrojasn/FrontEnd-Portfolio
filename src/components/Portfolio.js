@@ -82,7 +82,7 @@ const Portfolio = ()=>(
       </div>
 
       <div className="project">
-        <a href="https://jsrojasn.github.io/Clientside-Validation/">
+        <a href="https://fullstackform-validation.herokuapp.com">
           <h2 className="project-title">Client Side Validation</h2>
           <div className="project-image">
             <img src="/images/clientside.jpg"></img>
@@ -91,7 +91,7 @@ const Portfolio = ()=>(
         <div className="project-info">
           <p className="project-description">Complete client side validation for a complex form including DOM element behavior, regular expression and different kind of check functions for different inputs.</p>
           <p className="project-link">Github Repository:<span className="project-repository"><a href="https://github.com/jsrojasn/Clientside-Validation"> Client-Side Validation</a></span></p>
-          <p className="project-link">Live Demo:<span className="project-repository"><a href="https://jsrojasn.github.io/Clientside-Validation/"> Client-Side Validation</a></span></p>
+          <p className="project-link">Live Demo:<span className="project-repository"><a href="https://fullstackform-validation.herokuapp.com/index.html"> Client-Side Validation</a></span></p>
         </div>
       </div>
 

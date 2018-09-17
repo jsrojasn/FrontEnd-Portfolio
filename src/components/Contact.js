@@ -78,7 +78,7 @@ export default class Contact extends React.Component{
                         </div>
                         <h1 className="content-container contact-title">&#62;_Contact</h1>
                         <p className="content-container contact-message">Thank you for have interest in my work. I will contact you as soon as posible. While you can check my projects :)</p>
-                        <img  src="images/thumbs.jpeg" alt="Juan Rojas"></img>  
+                        <img  className="contact-img" src="images/thumbs.jpeg" alt="Juan Rojas"></img>  
                     </div>
                 </div>
             ) 
